@@ -13,6 +13,19 @@ https://agricultureinzambia.com/growing-soya-beans-in-zambia/
 Defeat High Blood Pressure - Authored the book and wrote the marketing copy
 https://fsp.co.za/products/Defeat-High-Blood-Pressure-The-complete-guide-to-reaching-your-ideal-blood-pressure-naturally-p599423816
 
+![Businesses in zambia](https://github.com/Shimanga/Marketing-Portfolio/assets/7394101/a2d911f1-acfc-4def-94bd-547e29b393c3)
 
+Types of businesses you can start in Zambia
+https://smatfin.com/types-of-businesses-you-can-start-in-zambia/
+
+![Drayage Specialist](https://github.com/Shimanga/Marketing-Portfolio/assets/7394101/1a8a9ef9-41bc-438a-bd58-cf1901e7015e)
+
+Revealing signs that you need a Drayage Specialist
+https://drayagespecialist.com/2022/12/06/revealing-signs-that-you-need-a-drayage-specialist/
+
+![wrap up](https://github.com/Shimanga/Marketing-Portfolio/assets/7394101/b092b374-5f15-435b-aee8-2fe77d967539)
+
+Life Retreat’s 2018 Round Up
+https://blog.liferetreat.co.za/life-retreats-2018-round-up/
 
 # Social Media Management
