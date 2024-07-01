@@ -1,20 +1,4 @@
 
-                <div class="portfolio-item">
-                    <h3>Project 2</h3>
-                    <p>Description of Project 2.</p>
-                </div>
-                <!-- Add more portfolio items as needed -->
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
 
 # Marketing-Portfolio
 Would you trust someone if you couldn’t validate their work right away? 
