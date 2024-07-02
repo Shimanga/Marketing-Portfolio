@@ -7,7 +7,7 @@ You can’t just invest your time and money on someone you don’t know. I would
 I hope this portfolio gives you the confidence to hire me.
 
 # Content Marketing
-![soybeans](https://github.com/Shimanga/Marketing-Portfolio/assets/7394101/8c7ec2c3-05c0-45c4-a9b2-9e2e3c9e1daf)
+<img src="https://github.com/Shimanga/Marketing-Portfolio/assets/7394101/8c7ec2c3-05c0-45c4-a9b2-9e2e3c9e1daf"/>
 Growing Soya Beans in Zambia
 https://agricultureinzambia.com/growing-soya-beans-in-zambia/
 
