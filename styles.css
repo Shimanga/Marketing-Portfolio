@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
+    background-color: #fff;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: #0707B5;
+    background-color: #0F1685;
     color: #fff;
     padding: 10px 0;
 }
@@ -66,7 +66,7 @@ main {
 }
 
 .portfolio-item {
-    background-color: #fff;
+    background-color: #f0f0f0;
     padding: 20px;
     text-align: left;
     img-align: right;
@@ -84,7 +84,7 @@ main {
 }
 
 footer {
-    background-color: #0707B5;
+    background-color: #0F1685;
     color: #fff;
     text-align: center;
     padding: 10px 0;
