@@ -3,114 +3,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shimanga Mubitana</title>
+    <title>Shimanga - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Marketing Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Shimanga</a>
 
-    <main>
-        <section id="about" class="section">
-            <div class="container">
-                <h2>About Me</h2>
-                <p style="text-align: center"> Would you trust someone if you couldn’t validate their work immediately? Certainly not! 
-                    <br>You can’t just invest your time and money on someone you don’t know. I wouldn’t! 
-<br>
-I'd suggest we start with that initial meeting that builds relationships, that first “hello”.</p>
-<p style="text-align: center"><b>SO HI, MY NAME IS SHIMANGA!</b> <br>
-<p style="text-align: center">I am a Marketing Specialist based in Zambia, working with clients worldwide. I’ve worked in marketing for over 10 years with various well-reputable local and international businesses.
-Learn about some of my work through this portfolio.</p> <br>
-               <center> <img src="https://github.com/Shimanga/Marketing-Portfolio/assets/7394101/a397ab27-6b91-4e37-bd95-ebe708ec2477 "style="width:400px;height:400px; max-width: 100%"/><center>
-            <br> <p style="text-align: center"> Advertising | Copy Writing | Content Strategy | Campaign Management| SEO | Social Media | Email Marketing | Research | Data Analysis | Digital Marketing | Project Management
-               </div>
-        </section>
-        <section id="portfolio" class="section">
-            <div class="container">
-                <h2>Portfolio</h2>
-<section id="portfolio" class="section">
-            <div class="container">
-                <h2>Campaigns</h2>
-                <div class="portfolio-item">
-                    <h3>Social Media Truck Driver Recruitment Project</h3>
-                    <p><b>Objective</b>: Generate Leads<br>
-<b>Strategy</b>: Utilized targeted social media ads <br>
-<b>Execution</b>: Created themed content and ran A/B tests to optimize ad performance.<br>
-<b>Results</b>: Achieved over 20% increase in lead conversions compared to the previous year. <be>
-                    <a href="https://github.com/Shimanga/Marketing-Portfolio/blob/main/AllPoints%20PERFORMANCE%20REPORT.pdf">View report here</a></p>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="fas fa-home nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fas fa-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fas fa-th nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fas fa-envelope nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+ <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content grid">
                 </div>
-                <div class="portfolio-item">
-                    <h3>SEO Optimization Project</h3>
-                    <p><b>Objective</b>: Improve organic search rankings and website traffics<br>
-<b>Strategy</b>: Conducted keyword research, optimized website content, and implemented backlink strategy. <br>
-<b>Execution</b>: Monitored analytics and adjusted strategies based on performance data<br>
-<b>Results</b>: Increased organic search traffic by 50% within 6 months.<be>
-                    <a href="https://github.com/Shimanga/Marketing-Portfolio/blob/main/SEO%20OFF%20PAGE%20WORKSHEET%20FR8.xlsx">See a sample here</a></p>
-                </div>
-         <h2>Marketing Strategy</h2>
-                <div class="portfolio-item">
-                    <img src="https://github.com/Shimanga/Marketing-Portfolio/assets/7394101/1291e2e9-7ddc-45fd-8b0a-0f635de6928e"style="width:700px;height:382px;max-width: 100%"/>
-                    <p>MAHLE Auto is an auto repair store that also retails a wide range of auto parts to the residents of Angola.<a href="https://github.com/Shimanga/Marketing-Portfolio/blob/main/Mahle%20Auto%20Marketing%20Strategy%20pages%20for%20portfolio.pdf">Sample 12 pages from the 40 page comprehensive strategy I created for the client</a> </p>
-                </div>
-                <h2>Content Samples</h2>
-                <div class="portfolio-item">
-                    <h3>Defeat High Blood Pressure</h3>
-                    <p>Authored the book and wrote the marketing copy.<a href="https://fsp.co.za/products/Defeat-High-Blood-Pressure-The-complete-guide-to-reaching-your-ideal-blood-pressure-naturally-p599423816">Details here</a> </p>
-                </div>
-                <div class="portfolio-item">
-                    <h3>Growing Soya Beans in Zambia</h3>
-                    <p>Data-driven content that the agricultural community appreciates, remembers, talks about, and shares. <a href="https://agricultureinzambia.com/growing-soya-beans-in-zambia/">Read the article here</a> </p>
-                </div>
-                 <div class="portfolio-item">
-                    <h3>Revealing signs that you need a Drayage Specialist</h3>
-                    <p>Wrote website copy, which was used to create YouTube videos. <a href="https://drayagespecialist.com/2022/12/06/revealing-signs-that-you-need-a-drayage-specialist/">Read the articles here</a> <a href="https://www.youtube.com/watch?v=c9FulIHpBa0">and YouTube videos here</a></p>
-                </div>
-                 <div class="portfolio-item">
-                    <h3>Types of businesses you can start in Zambia</h3>
-                    <p>Brought brand awareness through blogs that address potential entrepreneur needs. <a href="https://smatfin.com/types-of-businesses-you-can-start-in-zambia/">Read more here</a> </p>
-                </div>
-                 <div class="portfolio-item">
-                    <h3>Life Retreat’s 2018 Round Up</h3>
-                    <p>Introduced a weekly and annual round-up that was also used in newsletters.<a href="https://blog.liferetreat.co.za/life-retreats-2018-round-up/">Details here</a></p>
+                <div class="home__img">
+                   <right></right> <img src="https://github.com/Shimanga/Marketing-Portfolio/blob/main/me.png?raw=true" alt="Profile Picture" class="home__img"></right>
+        
+
+                <div class="home__data">
+                    <p class="home__description">Would you trust someone if you couldn’t validate their work? <br>Certainly not! 
+                    <br> Investing time and money in someone you don’t know is difficult.<br>I wouldn’t do it! <br>
+I'd suggest we start with that first “hello”.</p>
+                    <h3 class="home__title">So Hi, My name is Shimanga Mubitana!</h3>
+                    <p class="home__description">I am a Marketing Specialist based in Zambia, working with clients worldwide. I’ve worked in marketing for over 10 years with various well-reputable local and international businesses.
+Learn about some of my work through this portfolio.</p>
+                    <a href="#contact" class="button button--flex">
+                        Contact Me <i class="fas fa-envelope button__icon"></i>
+                    </a>
                 </div>
             </div>
-         <section id="portfolio" class="section">
-            <div class="container">
-                <h2>Social Media Management</h2>
-                <div class="portfolio-item">
-<center> <video width= "400" height="700" controls loop="" muted="" autoplay="">
-    <source src="https://github.com/Shimanga/Marketing-Portfolio/raw/main/WhatsApp%20Video%202024-07-04%20at%2015.05.03.mp4">
-                       </video></center> 
-                </div>   
-        </section>
-<section id="contact" class="section">
-            <div class="container">
-                <h2>Contact</h2>
-                <div class="portfolio-item">
-                    <h3>HAVE QUESTIONS? LET'S CHAT!</h3>
-                    <address>
-Please don't hesitate to email me if you have any questions about my expertise, including the experience I haven't highlighted here.<br>
-                        Email: <a href="mailto:shimangam@yahoo.co.uk">Shimanga Mubitana</a>.<br>
-Call: +260 96174 3210<br>
-</address>
-                    View my Data Analysis Portfolio <a href="https://github.com/Shimanga"> here</a>
-                </div>
-    </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Shimanga Mubitana. All rights reserved.</p>
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="fas fa-chevron-down home__scroll-mouse"></i>
+                    <span class="home__scroll-name">Scroll down</span>
+                    <i class="fas fa-chevron-down home__scroll-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">My Expertise</h2>
+                <p class="about__description">Advertising | Copy Writing | Marketing Strategy | Campaign Management| SEO | Social Media | Email Marketing | Market Research | Data Analysis | Digital Marketing | Project Management </p>
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title">10+</span>
+                        <span class="about__info-name">Years <br> Experience</span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title">100+</span>
+                        <span class="about__info-name">Completed <br> Projects</span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title">15+</span>
+                        <span class="about__info-name">Companies <br> Worked</span>
+                    </div>
+                </div>
+             <div class="about__img">
+                <img src="about-me.jpg" alt="About Me" class="about__img">
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+        <div class="portfolio__container container">
+            <h2 class="section__title portfolio__title">Portfolio</h2>
+            <div class="portfolio__content grid">
+                <div class="portfolio__item">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Social Media Truck Driver Recruitment Project</h3>
+                        <p class="portfolio__description"><b>Objective</b>: Generate Leads<br>
+<b>Strategy</b>: Utilized targeted social media ads <br>
+<b>Execution</b>: Created themed content and ran A/B tests to optimize ad performance.<br>
+<b>Results</b>: Achieved over 20% increase in lead conversions compared to the previous year.</p>
+                        <a href="https://github.com/Shimanga/Marketing-Portfolio/blob/main/AllPoints%20PERFORMANCE%20REPORT.pdf" class="button button--flex">
+                            View Report <i class="fas fa-eye button__icon"></i>
+                        </a>
+                    </div>
+ <br> <br>
+               <div class="portfolio__content grid">
+                <div class="portfolio__item">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">SEO Optimization Project</h3>
+                        <p class="portfolio__description"><b>Objective</b>: Improve organic search rankings and website traffics<br>
+<b>Strategy</b>: Conducted keyword research, optimized website content, and implemented backlink strategy. <br>
+<b>Execution</b>: Monitored analytics and adjusted strategies based on performance data<br>
+<b>Results</b>: Increased organic search traffic by 50% within 6 months.</p>
+                        <a href="https://github.com/Shimanga/Marketing-Portfolio/blob/main/SEO%20OFF%20PAGE%20WORKSHEET%20FR8.xlsx" class="button button--flex">
+                            View Project <i class="fas fa-eye button__icon"></i>
+                        </a>
+                    </div>
+          <br>
+                    <div class="portfolio__content grid">
+                <div class="portfolio__item">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Google Adwords Project</h3>
+                        <p class="portfolio__description">Adwords project</p>
+                        <a href="" class="button button--flex">
+                            View Project <i class="fas fa-eye button__icon"></i>
+                        </a>
+                    </div>
+                      </div>
+                        </section>
+
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">Marketing Strategy</h2>
+                <p class="about__description">MAHLE Auto is an auto repair store that also retails a wide range of auto parts to the residents of Angola. Sample a few pages from the 40-page comprehensive strategy I created for the client </p>
+                <div class="about__info">
+                </div>
+                <div class="about__buttons">
+                    <a download="" href="https://github.com/Shimanga/Marketing-Portfolio/blob/main/Mahle%20Auto%20Marketing%20Strategy%20pages%20for%20portfolio.pdf" class="button button--flex">
+                        View Strategy <i class="fas fa-download button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="about__img">
+                <img src="https://github.com/Shimanga/Marketing-Portfolio/blob/main/Mahle.png?raw=true" alt="About Me" class="about__img">
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+        <div class="portfolio__container container">
+            <h2 class="section__title portfolio__title">Content Samples</h2>
+            <div class="portfolio__content grid">
+                <div class="portfolio__item">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Social Media Management</h3>
+                        <p class="portfolio__description">Authored the book and wrote the marketing copy</p>
+                        <video width= "450" height="1000" controls loop="" muted="" autoplay="">
+    <source src="https://github.com/Shimanga/Marketing-Portfolio/raw/main/WhatsApp%20Video%202024-07-04%20at%2015.05.03.mp4">
+                       </video>
+                        <img src="portfolio-1.jpg" alt="Portfolio 1" class="portfolio__img">
+                    </div>
+ </div>
+                <div class="portfolio__content grid">
+                <div class="portfolio__item">
+                
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Defeat High Blood Pressure</h3>
+                        <p class="portfolio__description">Authored the book and wrote the marketing copy</p>
+                        <a href="https://fsp.co.za/products/Defeat-High-Blood-Pressure-The-complete-guide-to-reaching-your-ideal-blood-pressure-naturally-p599423816" class="button button--flex">
+                            Details Here <i class="fas fa-eye button__icon"></i>
+                        </a>
+                    </div>
+                <div class="portfolio__content grid">
+                <div class="portfolio__item">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Growing Soya Beans in Zambia</h3>
+                        <p class="portfolio__description">Data-driven content that the agricultural community appreciates, remembers, talks about, and shares.</p>
+                        <a href="https://agricultureinzambia.com/growing-soya-beans-in-zambia/" class="button button--flex">
+                            Read Article <i class="fas fa-eye button__icon"></i>
+                        </a>
+                    </div>
+                    <div class="portfolio__content grid">
+                <div class="portfolio__item">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Life Retreat’s 2018 Round Up</h3>
+                        <p class="portfolio__description">Introduced a weekly and annual round-up that was also used in newsletters</p>
+                        <a href="https://blog.liferetreat.co.za/life-retreats-2018-round-up/" class="button button--flex">
+                            View Project <i class="fas fa-eye button__icon"></i>
+                        </a>
+                    </div>
+                    <div class="portfolio__content grid">
+                <div class="portfolio__item">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Revealing signs that you need a Drayage Specialist</h3>
+                        <p class="portfolio__description">Wrote blog copy, which was also used to create YouTube videos.</p>
+                        <a href="https://drayagespecialist.com/2022/12/06/revealing-signs-that-you-need-a-drayage-specialist/" class="button button--flex">
+                            Read Article <i class="fas fa-eye button__icon"></i>
+                        </a>
+                    </div>
+                    <div class="portfolio__content grid">
+                <div class="portfolio__item">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Types of businesses you can start in Zambia</h3>
+                        <p class="portfolio__description">Brought brand awareness through blogs that address potential entrepreneur needs.</p>
+                        <a href="https://smatfin.com/types-of-businesses-you-can-start-in-zambia/" class="button button--flex">
+                            Read Article <i class="fas fa-eye button__icon"></i>
+                        </a>
+                    </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+            <div class="contact__info">
+                <h2 class="section__title contact__title">Have Questions? Let's Chat!</h2>
+                <p class="contact__description">Please don't hesitate to email me if you have any questions about my expertise, including the experience I haven't highlighted here.</p>
+                <div class="contact__info-item">
+                    <span class="contact__info-title">Email:</span>
+                    <span class="contact__info-text">shimangam@gmail.com</span>
+                </div>
+                <div class="contact__info-item">
+                    <span class="contact__info-title">Phone:</span>
+                    <span class="contact__info-text">+260961743210</span>
+                </div>
+            </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__socials">
+                <a href="https://www.linkedin.com/in/shimanga-mubitana" target="_blank" class="footer__social">
+                    <i class="fab fa-linkedin"></i>
+            </div>
+            <p class="footer__copy">&#169; 2024 Shimanga Mubitana. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
