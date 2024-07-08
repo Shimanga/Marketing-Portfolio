@@ -321,11 +321,11 @@ body {
 .contact__info-title {
     font-size: 0.5rem;
     color: #333;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 }
 
 .contact__info-text {
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 .contact__form {
