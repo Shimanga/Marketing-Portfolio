@@ -319,13 +319,13 @@ body {
 }
 
 .contact__info-title {
-    font-size: 1rem;
-    color: #ed1c24;
+    font-size: 0.5rem;
+    color: #333;
     margin-right: 0.5rem;
 }
 
 .contact__info-text {
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 
 .contact__form {
